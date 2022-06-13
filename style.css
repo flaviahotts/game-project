@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game-board {
+  width: 60%;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background-image: url(./images/bikinibottom.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 105% 100%;
+}
+
+.gary {
+  position: absolute;
+  bottom: 0px;
+  width: 70px;
+  animation: gary-animation 2.5s infinite linear;
+}
+
+.bob {
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+}
+
+.jump {
+  animation: jump 500ms ease-out;
+}
+
+@keyframes gary-animation {
+  from {
+    right: -70px;
+  }
+
+  to {
+    right: 100%;
+  }
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0;
+  }
+
+  40% {
+    bottom: 180px;
+  }
+
+  50% {
+    bottom: 180px;
+  }
+
+  60% {
+    bottom: 180px;
+  }
+
+  100% {
+    bottom: 0px;
+  }
+}
