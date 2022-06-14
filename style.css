@@ -5,7 +5,7 @@
 }
 
 .game-board {
-  width: 60%;
+  width: 80%;
   height: 500px;
   border: 1px solid black;
   margin: 0 auto;
@@ -21,6 +21,7 @@
   position: absolute;
   bottom: 0px;
   width: 70px;
+
   animation: gary-animation 2.5s infinite linear;
 }
 

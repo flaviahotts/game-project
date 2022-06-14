@@ -1,4 +1,5 @@
 const bob = document.querySelector(".bob");
+const gary = document.querySelector(".gary");
 
 const jump = () => {
   bob.classList.add("jump");
@@ -9,9 +10,19 @@ const jump = () => {
 
 const loop = setInterval(() => {
   const garyPosition = gary.offsetLeft;
-  if (garyPosition <= 120) {
+  const bobPosition = +window.getComputedStyle(bob).bottom.replace("px", "");
+
+  if (garyPosition <= 85 && garyPosition > 0 && bobPosition < 55) {
     gary.style.animation = "none";
-    gary.style.left = "${garyPosition}px";
+    gary.style.left = `${garyPosition}px`;
+
+    bob.style.animation = "none";
+    bob.style.bottom = `${bobPosition}px`;
+
+    bob.src = "./images/bob-dead.gif";
+    bob.style.width = "130px";
+
+    clearInterval(loop);
   }
 }, 10);
 
