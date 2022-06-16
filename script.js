@@ -3,13 +3,18 @@ const bob = document.querySelector(".bob");
 const gary = document.querySelector(".gary");
 const jellyfish = document.querySelector(".jellyfish");
 const btnRestart = document.querySelector(".btnRestart");
+const btnStart = document.querySelector(".btnStart");
+const gameBoard = document.querySelector(".game-board");
 
 /*adicionar e remover o jump no bob*/
 const jump = () => {
   bob.classList.add("jump");
+
   setTimeout(() => {
     bob.classList.remove("jump");
   }, 500);
+
+  jumpSound.play();
 };
 
 /* collision event (gameover)*/
@@ -28,7 +33,6 @@ const collision = setInterval(() => {
     bob.src = "./images/bob-dead.gif";
     bob.style.width = "130px";
 
-    /*tocar som de gameover e colocar tela de gameover aqui*/
     gameOver();
 
     /*parar o loop da colisao)*/
@@ -46,16 +50,31 @@ btnRestart.addEventListener("click", function () {
 });
 
 /*sound efects*/
-const backgroundSound = new Audio("./sounds/spongebob-background.ogg");
-const gameOverSound = new Audio("./sounds/spongebob-laught.ogg");
-backgroundSound.play();
+const backgroundSound = new Audio();
+backgroundSound.src = "./sounds/spongebob-background.ogg";
+backgroundSound.collision = true;
+
+const gameOverSound = new Audio();
+gameOverSound.src = "./sounds/spongebob-laught.ogg";
+
+const jumpSound = new Audio();
+jumpSound.src = "./sounds/jump.ogg";
 
 /*game over */
 function gameOver() {
   const modalGameOver = document.getElementById("modalgameover");
   modalGameOver.classList.remove("hidden");
   modalGameOver.classList.add("show");
-
+  backgroundSound.pause();
   gameOverSound.play();
 }
-/*criar addEventListener para o btnRestart colocar reload no background sound*/
+
+/*start*/
+btnStart.addEventListener("click", function () {
+  const start = document.getElementById("start");
+  start.classList.remove("show");
+  start.classList.add("hidden");
+  gameBoard.classList.remove("hidden");
+  gameBoard.classList.add("show");
+  backgroundSound.play();
+});

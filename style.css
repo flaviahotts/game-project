@@ -13,6 +13,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 105% 100%;
+  flex-direction: column;
 }
 
 .start-screen h1 {
@@ -38,19 +39,16 @@
   background-color: black;
   border: none;
   border-radius: 20px;
-  box-shadow: 4px 4px 20px rgba(00, 00, 00, 0.2);
-  margin-left: 100px;
+  box-shadow: 4px 4px 20px rgb(0 0 0 / 20%);
+  margin-left: 65px;
   margin-top: 30px;
   height: 50px;
   width: 200px;
   font-family: "Roboto Slab", serif;
   font-weight: 900;
   font-size: 25px;
-}
-
-.btnStart a {
-  text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 .btnRestart {
@@ -58,19 +56,44 @@
   border: none;
   border-radius: 20px;
   box-shadow: 4px 4px 20px rgba(00, 00, 00, 0.2);
-  margin-left: -105px;
-  margin-right: 115px;
-  margin-top: 400px;
-  height: 50px;
-  width: 200px;
+  height: 45px;
+  width: 130px;
   font-family: "Roboto Slab", serif;
   font-weight: 900;
   font-size: 25px;
+  color: #f6e801;
+  position: absolute;
+  margin: 10px;
+  cursor: pointer;
 }
 
-.btnRestart a {
-  text-decoration: none;
-  color: white;
+.game-over-screen {
+  width: 47%;
+  height: 320px;
+  border: 1px solid black;
+  margin: -455px auto;
+  position: relative;
+  background-image: url(./images/spongebob-gameover.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 105% 100%;
+}
+
+.game-over-screen p {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  align-items: flex-end;
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: flex;
 }
 
 .game-board {
@@ -84,13 +107,27 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 105% 100%;
+  cursor: pointer;
 }
 
 .jellyfish {
   position: absolute;
   width: 60px;
-  top: 200px;
-  animation: jellyfish-animation 4.5s infinite linear;
+  top: 150px;
+  animation: jellyfish-animation 5s infinite linear;
+}
+.jellyfish2 {
+  position: absolute;
+  width: 60px;
+  top: 80px;
+  animation: jellyfish-animation 6.5s infinite alternate-reverse;
+}
+
+.jellyfish3 {
+  position: absolute;
+  width: 60px;
+  top: 20px;
+  animation: jellyfish-animation 8.5s infinite linear;
 }
 
 .gary {
@@ -150,52 +187,4 @@
   100% {
     bottom: 0px;
   }
-}
-
-.game-over-screen {
-  width: 100%;
-  height: 500px;
-  border: 1px solid black;
-  margin: 0 auto;
-  position: relative;
-  background-image: url(./images/spongebob-gameover.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-size: 105% 100%;
-}
-
-.game-over-screen p {
-  margin-top: 300px;
-  margin-left: 400px;
-  font-size: 32px;
-  font-weight: bolder;
-  font-family: "Roboto Slab", serif;
-}
-
-.hidden {
-  display: none;
-}
-
-.show {
-  display: flex;
-}
-
-.btnStartScreen {
-  background-color: #fafb00;
-  border: none;
-  border-radius: 20px;
-  box-shadow: 4px 4px 20px rgba(00, 00, 00, 0.2);
-  margin-left: -600px;
-  margin-right: 550px;
-  margin-top: 440px;
-  height: 50px;
-  width: 200px;
-  font-family: "Roboto Slab", serif;
-  font-weight: 900;
-  font-size: 18px;
-}
-
-.btnStartScreen a {
-  text-decoration: none;
-  color: black;
 }
