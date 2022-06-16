@@ -9,7 +9,7 @@
 </p><b><br>
 
 # About the game ℹ 
-<p>SpongeBob Jump is inpired by the <a href="chrome://dino/" target="_blank">Dinosaur Game</a> developed by Google .</p>
+<p>SpongeBob Jump is inpired by the Dinosaur Game developed by Google .</p>
 <p>To play the game you just need to avoid the obstacles by jumping across a side-scrolling landscape. Easy peasy 😊</p>
   
   <img src="https://user-images.githubusercontent.com/80928578/174191211-89077cbf-4351-40dd-8339-675acd557787.png" width="850" height="300" />
