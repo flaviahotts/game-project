@@ -65,6 +65,8 @@
   position: absolute;
   margin: 10px;
   cursor: pointer;
+  bottom: 0px;
+  right: 0px;
 }
 
 .game-over-screen {

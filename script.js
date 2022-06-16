@@ -5,6 +5,8 @@ const jellyfish = document.querySelector(".jellyfish");
 const btnRestart = document.querySelector(".btnRestart");
 const btnStart = document.querySelector(".btnStart");
 const gameBoard = document.querySelector(".game-board");
+const modalGameOver = document.getElementById("modalgameover");
+const start = document.getElementById("start");
 
 /*adicionar e remover o jump no bob*/
 const jump = () => {
@@ -20,6 +22,7 @@ const jump = () => {
 /* collision event (gameover)*/
 const collision = setInterval(() => {
   const garyPosition = gary.offsetLeft;
+  console.log(garyPosition);
   const bobPosition = +window.getComputedStyle(bob).bottom.replace("px", "");
 
   if (garyPosition <= 85 && garyPosition > 0 && bobPosition < 55) {
@@ -62,7 +65,6 @@ jumpSound.src = "./sounds/jump.ogg";
 
 /*game over */
 function gameOver() {
-  const modalGameOver = document.getElementById("modalgameover");
   modalGameOver.classList.remove("hidden");
   modalGameOver.classList.add("show");
   backgroundSound.pause();
@@ -71,7 +73,6 @@ function gameOver() {
 
 /*start*/
 btnStart.addEventListener("click", function () {
-  const start = document.getElementById("start");
   start.classList.remove("show");
   start.classList.add("hidden");
   gameBoard.classList.remove("hidden");
