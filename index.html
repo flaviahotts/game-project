@@ -4,20 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/style.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
 
     <title>SpongeBob Jump</title>
   </head>
   <body>
     <!-- start screen -->
-    <div class="start-screen">
+    <div id="start-screen" class="btnStart">
+      <img src="./images/spongebob-start.jpg" alt="SpongeBob Start Screen" />
       <h1>SpongeBob Jump Game</h1>
       <h2>How to play:</h2>
-    <p>Press any key or mouse click to jump</p>
+      <p>Press any key or mouse click to jump</p>
+    </div>
 
-      <!-- button to change screen -->
-            <button class="btnStart"><a href="https://flaviahotts.github.io/game-project/game.html"> Start </a></button>
-   
-    <script src="/script.js"></script>
+    <!---game board-->
+    <div class="game-board">
+      <img src="./images/spongebob-playing.gif" class="bob" alt="SpongeBob Start Screen"/>
+      <img src="./images/gary.gif" class="gary" alt="SpongeBob Start Screen" />
+      <img src="./images/jellyfish.gif" class="jellyfish" alt="SpongeBob Start Screen" />
+    </div>
+
+    <div id="modalgameover" class="game-over-screen hidden">
+      <p>Game Over!</p>
+
+      <button class="btnRestart"> Restart </a></button>
+    </div>
+
+    <!-- button to change screen and start the game 
+            <button class="btnStart"><a href="/game.html"> Start </a></button>-->
+
+    <script src="./script.js"></script>
   </body>
 </html>

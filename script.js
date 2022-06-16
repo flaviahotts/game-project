@@ -1,7 +1,10 @@
+/*selecionar cada elemento do html para manipular em js*/
 const bob = document.querySelector(".bob");
 const gary = document.querySelector(".gary");
 const jellyfish = document.querySelector(".jellyfish");
+const btnRestart = document.querySelector(".btnRestart");
 
+/*adicionar e remover o jump no bob*/
 const jump = () => {
   bob.classList.add("jump");
   setTimeout(() => {
@@ -9,7 +12,7 @@ const jump = () => {
   }, 500);
 };
 
-/* collision event*/
+/* collision event (gameover)*/
 const collision = setInterval(() => {
   const garyPosition = gary.offsetLeft;
   const bobPosition = +window.getComputedStyle(bob).bottom.replace("px", "");
@@ -21,20 +24,26 @@ const collision = setInterval(() => {
     bob.style.animation = "none";
     bob.style.bottom = `${bobPosition}px`;
 
-    /*nao esta mais funcionando kkkkrying*/
+    /*mudar imagem do bob quando houver a colisao (nao esta mais funcionando kkkkrying)*/
     bob.src = "./images/bob-dead.gif";
     bob.style.width = "130px";
 
     /*tocar som de gameover e colocar tela de gameover aqui*/
     gameOver();
 
+    /*parar o loop da colisao)*/
     clearInterval(collision);
   }
 }, 10);
 
-/* keyboard jump keys */
+/* adicionar o evento de jump ao pressionar qualquer tecla no teclado e/ou clicar no mouse*/
 document.addEventListener("keydown", jump);
 document.addEventListener("click", jump);
+
+/*adicionar evento de click para reiniciar o jogo*/
+btnRestart.addEventListener("click", function () {
+  location.reload();
+});
 
 /*sound efects*/
 const backgroundSound = new Audio("./sounds/spongebob-background.ogg");
