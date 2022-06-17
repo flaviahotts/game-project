@@ -16,20 +16,27 @@
   Just pressing any key on the keyboard or clicking the mouse to jump the obstacles.
   
   Click <a href="https://flaviahotts.github.io/game-project/" target="_blank">here</a> to play!
-  <br>
-  <br>
+  <br><br>
   
-  # Technologies and Tools
   
+  
+  # Technologies and Tools 💻  
   <p float="left">      
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="80" height="30" />           
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="80" height="30" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="90" height="30" />
-  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" width="110" height="30" /> 
-  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" width="80" height="30" />           
-  <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white" width="90" height="30" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="90" height="30" />           
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="90" height="30" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="100" height="30" />
+  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" width="120" height="30" /> 
+  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" width="90" height="30" />           
+  <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white" width="100" height="30" />
 </p>
 <br>
+
+# Contribuitors 😇
+
+<p>✨<a href="https://github.com/alexandreatlima" target="_blank">Alexandre Lima</a></p>
+<p>✨<a href="https://github.com/AnnaRe1s" target="_blank">Anna Reis</a></p>
+<p>✨<a href="https://github.com/karenokasaki" target="_blank">Karen Okasaki</a></p>
+
   
   
   
