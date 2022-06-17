@@ -19,8 +19,10 @@
   Just pressing any key on the keyboard or clicking the mouse to jump the obstacles.
   
  ---> Click <a href="https://flaviahotts.github.io/game-project/" target="_blank">here</a> to play!<---
-  <br><br>
+  <br>
   
+  To learn more check <a href="https://www.canva.com/design/DAFD2Wtdgds/Ljc5kcRTRHHkfUiliyTi_g/view?utm_content=DAFD2Wtdgds&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel" target="_blank">here</a> my apresentation (In Portuguese).
+  <br><br>
   
   
   # Technologies and Tools 💻  
