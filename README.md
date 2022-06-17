@@ -1,11 +1,8 @@
 # SpongeBob Jump Game
 ![spongebob-playing](https://user-images.githubusercontent.com/80928578/174189768-4472a0f9-9bdf-4e8d-830d-8535ba60cc36.gif)
-<p><strong>SpongeBob Jump</strong> is a game developed using HTML, CSS, and JavaScript as part of my first project by  <a href="https://www.ironhack.com/en" target="_blank">Ironhack</a> Web Development Bootcamp.</p>
-<p float="left">  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" height="50"/>    
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" height="50" />           
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" height="50" />
-</p><b><br>
+<p><strong>SpongeBob Jump</strong> is a game developed using HTML, CSS, and JavaScript.</p>
+<p>It was made as part of my first project by  <a href="https://www.ironhack.com/en" target="_blank">Ironhack</a> Web Development Bootcamp.</p>
+<br>
 
 # About the game ℹ 
 <p>SpongeBob Jump is inpired by the Dinosaur Game developed by Google .</p>
@@ -13,8 +10,30 @@
 <p>Easy peasy 😊</p>
   
   <img src="https://user-images.githubusercontent.com/80928578/174191211-89077cbf-4351-40dd-8339-675acd557787.png" width="850" height="300" />
+  <br>
   
  # How to play 🎮
   Just pressing any key on the keyboard or clicking the mouse to jump the obstacles.
   
   Click <a href="https://flaviahotts.github.io/game-project/" target="_blank">here</a> to play!
+  <br>
+  <br>
+  
+  # Technologies and Tools
+  
+  <p float="left">      
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="80" height="30" />           
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="80" height="30" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" width="90" height="30" />
+  <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" width="110" height="30" /> 
+  <img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" width="80" height="30" />           
+  <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=for-the-badge&logo=zoom&logoColor=white" width="90" height="30" />
+</p>
+<br>
+  
+  
+  
+  
+  
+  
+  
