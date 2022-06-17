@@ -33,9 +33,14 @@
 
 # Contribuitors 😇
 
-<p>✨<a href="https://github.com/alexandreatlima" target="_blank">Alexandre Lima</a></p>
-<p>✨<a href="https://github.com/AnnaRe1s" target="_blank">Anna Reis</a></p>
-<p>✨<a href="https://github.com/karenokasaki" target="_blank">Karen Okasaki</a></p>
+<p>✨ <a href="https://github.com/alexandreatlima" target="_blank">Alexandre Lima</a></p>
+<p>✨ <a href="https://github.com/AnnaRe1s" target="_blank">Anna Reis</a></p>
+<p>✨ <a href="https://github.com/karenokasaki" target="_blank">Karen Okasaki</a></p>
+<br>
+
+# Developer 👩🏻‍💻
+
+<p>⭐ <a href="https://github.com/flaviahotts" target="_blank">Flavia Hotts</a></p>
 
   
   
