@@ -10,8 +10,8 @@
 <p>Easy peasy 😊</p>
   
   <p float="left">
-  <img src="https://user-images.githubusercontent.com/80928578/174263999-d21eef72-83e8-40c1-922b-74b21e0a9c59.png" width="450" height="250" />
-  <img src="https://user-images.githubusercontent.com/80928578/174264065-f7284229-b844-448c-93b7-90f2da528996.png" width="450" height="250" />
+  <img src="https://user-images.githubusercontent.com/80928578/174263999-d21eef72-83e8-40c1-922b-74b21e0a9c59.png" width="400" height="250" />
+  <img src="https://user-images.githubusercontent.com/80928578/174264065-f7284229-b844-448c-93b7-90f2da528996.png" width="400" height="250" />
   </p>
   <br>
   
