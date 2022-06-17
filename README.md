@@ -9,13 +9,16 @@
 <p>To play the game you just need to avoid the obstacles by jumping across a side-scrolling landscape.</p>
 <p>Easy peasy 😊</p>
   
-  <img src="https://user-images.githubusercontent.com/80928578/174191211-89077cbf-4351-40dd-8339-675acd557787.png" width="850" height="300" />
+  <p float="left">
+  <img src="https://user-images.githubusercontent.com/80928578/174263999-d21eef72-83e8-40c1-922b-74b21e0a9c59.png" width="450" height="250" />
+  <img src="https://user-images.githubusercontent.com/80928578/174264065-f7284229-b844-448c-93b7-90f2da528996.png" width="450" height="250" />
+  </p>
   <br>
   
  # How to play 🎮
   Just pressing any key on the keyboard or clicking the mouse to jump the obstacles.
   
-  Click <a href="https://flaviahotts.github.io/game-project/" target="_blank">here</a> to play!
+ ---> Click <a href="https://flaviahotts.github.io/game-project/" target="_blank">here</a> to play!<---
   <br><br>
   
   
